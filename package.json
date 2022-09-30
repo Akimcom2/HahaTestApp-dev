@@ -1,0 +1,27 @@
+{
+  "name": "hahatestapp",
+  "version": "1.0.0",
+  "description": "Тестовый проект",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lamalmao/HahaTestApp.git"
+  },
+  "author": "Жабаскриптеры",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lamalmao/HahaTestApp/issues"
+  },
+  "homepage": "https://github.com/lamalmao/HahaTestApp#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.6.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.20",
+    "passport": "^0.6.0",
+    "socket.io": "^4.5.2"
+  }
+}

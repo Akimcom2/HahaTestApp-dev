@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
+        <title>Все_лабы</title>
+        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="styles/background.css">
+        <link rel="stylesheet" href="styles/exchange.css">
+    </head>
+<body>
+        
+    <header>
+      <nav class="menu">
+        <ul>
+          <li><a href="/"><i class="home"></i>Главная</a></li>
+          <li><a href="/labs"><i class="lab"></i>Лабы</a>
+            <ul>
+              <li><a href="#">Вмо</a>
+                <ul>
+                    <li><a href="#">1Курс</a>
+                        <ul>
+                            <li><a href="#">Препод 1</a></li>
+                            <li><a href="#">Препод 2</a></li>
+                            <li><a href="#">Препод 3</a></li>
+                            <li><a href="#">Препод 4</a></li>
+                            <li><a href="#">Препод 5</a></li>
+                            <li><a href="#">Препод 6</a></li>
+                            <li><a href="#">Препод 7</a></li>
+                            <li><a href="#">Препод 8</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">2Курс</a>
+                        <ul>
+                            <li><a href="#">Препод 1</a></li>
+                            <li><a href="#">Препод 2</a></li>
+                            <li><a href="#">Препод 3</a></li>
+                            <li><a href="#">Препод 4</a></li>
+                            <li><a href="#">Препод 5</a></li>
+                            <li><a href="#">Препод 6</a></li>
+                            <li><a href="#">Препод 7</a></li>
+                            <li><a href="#">Препод 8</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">3Курс</a>
+                        <ul>
+                            <li><a href="#">Препод 1</a></li>
+                            <li><a href="#">Препод 2</a></li>
+                            <li><a href="#">Препод 3</a></li>
+                            <li><a href="#">Препод 4</a></li>
+                            <li><a href="#">Препод 5</a></li>
+                            <li><a href="#">Препод 6</a></li>
+                            <li><a href="#">Препод 7</a></li>
+                            <li><a href="#">Препод 8</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">4Курс</a>
+                        <ul>
+                            <li><a href="#">Препод 1</a></li>
+                            <li><a href="#">Препод 2</a></li>
+                            <li><a href="#">Препод 3</a></li>
+                            <li><a href="#">Препод 4</a></li>
+                            <li><a href="#">Препод 5</a></li>
+                            <li><a href="#">Препод 6</a></li>
+                            <li><a href="#">Препод 7</a></li>
+                            <li><a href="#">Препод 8</a></li>
+                        </ul>
+                    </li>
+                </ul>
+              </li>
+              <li><a href="#">Впр(Неработает)</a>
+                <ul>
+                  <li><a href="#">Курс</a></li>
+                    <li><a href="#">Курс</a></li>
+                    <li><a href="#">Курс</a></li>
+                    <li><a href="#">Курс</a></li>
+                </ul>
+                </li>
+                </ul>
+        </li>
+              <li><a href="/forum">Форум</a></li>
+              <li><a href="/exchange">Обмен</a></li>
+              <li><a href="/signin" class='vxod'>Вход</a></li>
+      </ul>
+      </nav>
+    </header>
+    <div class="box">
+        <div class="one_box">
+            <p>Всем привет, здесь вы можете обменять свою лабораторную работу на токены нашего сайта.</p>
+        </div>
+        <div class="two_box">
+            <form action="/upload" method="post" enctype="multipart/form-data">
+                <input type="file" name="filedata" id="upload-file"/><br><br>
+                <input type="submit" value="Загрузить файл" id="upload-btn" />
+            </form>
+        </div>
+            
+    </div>
+    <div class="curveWrap">
+        <svg width="100%" height="100%" viewBox="0 0 1200 100">
+            <g class="curve" fill="none">
+                <path d="M 0, 60 S 300, -60, 600, 60, 800, -120, 1200 60" />
+                <path d="M 0, 60 S 200, -60, 400, 60, 900, -120, 1200 60" />
+                <path d="M 0, 60 S 200, -70, 400, 70, 800, -120, 1200 60" />
+                <path d="M 0, 60 S 200, -60, 400, 80, 600, -120, 1200 60" />
+            </g>
+        </svg>
+    </div>
+    <script src="scripts/exchange.js"></script>
+</body>
+</html>
